@@ -141,6 +141,7 @@ cursor: pointer;
   height: 100%;
   opacity: 1;
   transition: .1s ease;
+  z-index: 1000;
 }
 
 .close {

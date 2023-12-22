@@ -264,10 +264,10 @@ setImage({
 <div className="d-flex flex-column justify-content-start">
   <p className='me-5 fw-bold'>Change Background :</p>
   <div className='row row-cols-4 backgrounds'>
-  <img src={b1} className='img-fluid mb-2' alt="background" />
-  <img src={b2} className='img-fluid mb-2' alt="background" />
-  <img src={b3} className='img-fluid mb-2' alt="background" />
-  <img src={b4} className='img-fluid mb-2' alt="background" />
+  <img src={b1} className="img-fluid mb-2" alt="background" onClick={handleBackground}/>
+                    <img src={b2} className="img-fluid mb-2" alt="background" onClick={handleBackground}/>
+                    <img src={b3} className="img-fluid mb-2" alt="background" onClick={handleBackground}/>
+                    <img src={b4} className="img-fluid mb-2" alt="background" onClick={handleBackground}/>
 
   </div>
 </div>
