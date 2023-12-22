@@ -10,7 +10,7 @@ function App() {
     <div className="App">
 <Switch>
   <Route exact path='/'><Login/></Route>
-  <Route path='https://hamid-tlailia.github.io/nodejs'><Login/></Route>
+  <Route path='https://hamid-tlailia.github.io/nodejs/'><Login/></Route>
   <Route path="/chat"><Chat/></Route>
 </Switch>
     </div>
