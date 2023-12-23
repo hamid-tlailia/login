@@ -185,7 +185,7 @@ setImage({
                 </div>
                 <div className="message-input d-flex flex-row justify-content-between align-items-center p-2 ">
                   <div className="tools">
-                    <i class="fas fa-video me-3"></i>
+                    
                     <i class="far fa-image me-3"></i>
                   </div>
                   <div className="d-flex flex-row justify-content-center align-items-center input">
@@ -231,12 +231,12 @@ setImage({
           </div>
           <div className="card-footer d-flex flex-row justify-content-center align-items-center">
             <p className="text-dark fs-5 mt-3 me-3">
-              2023 <i class="far fa-copyright"></i> Producted by Tlailia Hamid :
+              2023 <i class="far fa-copyright"></i>  Tlailia Hamid :
             </p>
             <div className="socials d-flex flex-row">
               <i class="fab fa-facebook me-3  fs-4 text-primary"></i>
               <i class="fab fa-youtube me-3 fs-4 text-danger"></i>
-              <i class="fab fa-instagram fs-4 text-warning"></i>
+            
             </div>
           </div>
 

@@ -53,7 +53,7 @@ height: 100%;
 .active-users .message-input {
 position: absolute;
 bottom: 0;
-left: 0;
+left: 9px;
 right: 0;
 background-color: whitesmoke;
 z-index: 100;
