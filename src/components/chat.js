@@ -38,8 +38,8 @@ setImage({
   }
   return (
     <div>
-      <div className="container-lg mt-3 mb-3" id="global">
-        <div className="card" id="card">
+      <div className="container-lg" id="global">
+        <div className="card m-0" id="card">
           <div className="card-header d-flex flex-row justify-content-between align-items-center">
             <div className="icon">
               <i class="far fa-comment-dots fs-1 text-primary"></i>
@@ -184,18 +184,15 @@ setImage({
                   </div>
                 </div>
                 <div className="message-input d-flex flex-row justify-content-between align-items-center p-2 ">
-                  <div className="tools">
-                    
-                    <i class="far fa-image me-3"></i>
-                  </div>
                   <div className="d-flex flex-row justify-content-center align-items-center input">
-                    <input type="text" placeholder="Type a word..." />
+                    <input type="text" className="form-controle" placeholder="Type a word..." />
                     <button className="btn btn-outline-white text-dark">
                       <i class="far fa-paper-plane fs-6 text-info fw-bold"></i>
                     </button>
                   </div>
                   <div className="emojis">
-                    <i class="far fa-face-grin ms-3"></i>
+                  <i class="far fa-image me-3 ms-1"></i>
+                    <i class="far fa-face-grin  ms-1"></i>
                   </div>
                 </div>
               </div>
@@ -230,8 +227,8 @@ setImage({
             </div>
           </div>
           <div className="card-footer d-flex flex-row justify-content-center align-items-center">
-            <p className="text-dark fs-5 mt-3 me-3">
-              2023 <i class="far fa-copyright"></i>  Tlailia Hamid :
+            <p className="text-dark fs-6 mt-3 me-3">
+               <i class="far fa-copyright"></i>  Tlailia-Hamid :
             </p>
             <div className="socials d-flex flex-row">
               <i class="fab fa-facebook me-3  fs-4 text-primary"></i>
